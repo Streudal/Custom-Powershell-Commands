@@ -1,5 +1,4 @@
 function ConvertTo-LowerCamelCase {
-
     <#
     .SYNOPSIS
         Converst string to lower camel case, by removing spaces and starting each word but the first with a capital letter.
@@ -9,9 +8,11 @@ function ConvertTo-LowerCamelCase {
     
     .PARAMETER deliminators
         List of characters to treat as word deliminators.
+        
     .EXAMPLE
         convertTo-LowerCamelCase -inputString "My name with spaces"  
         myNameWithSpaces
+
     .EXAMPLE
         convertTo-LowerCamelCase -inputString "My-name-with-dashes and spaces" -deliminator " ", "-"
         myNameWithDashesAndSpaces   
@@ -20,8 +21,9 @@ function ConvertTo-LowerCamelCase {
         String
      
     .NOTES
-        Author:  Eric Jay Stevens - https://github.com/ericjaystevens/psAltCase
+        Author:  Eric Jay Stevens - https://github.com/ericjaystevens/psAltCase OR https://github.com/Streudal/Custom-Powershell-Commands/tree/master/CustomToolkit/Toolkit/Random/ConvertTo-LowerCamelCase.psm1
     #>
+
     [CmdletBinding()]
     [OutputType('string')]
     param (
