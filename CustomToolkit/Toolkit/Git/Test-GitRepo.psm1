@@ -4,14 +4,12 @@ function Test-GitRepo {
         This will check to see if the current directory is a git repository.
 
     .EXAMPLE
-        Input: Test-GitRepo
-        
-        Output: True
+        Test-GitRepo
+        True
 
     .EXAMPLE
-        Input: Test-GitRepo
-
-        Output: False
+        Test-GitRepo
+        False
 
     .NOTES
         Author:  Tyler Streu - https://github.com/Streudal/Custom-Powershell-Commands/tree/master/CustomToolkit/Toolkit/Git/Test-GitRepo.psm1

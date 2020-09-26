@@ -7,14 +7,12 @@ function Get-CurrentBranchName {
               https://github.com/Streudal/Custom-Powershell-Commands/tree/master/CustomToolkit/Toolkit/Git/Update-Branch.psm1
               
     .EXAMPLE
-        Input: Get-CurrentBranchName
-        
-        Output: your-branch-name
+        Get-CurrentBranchName
+        your-branch-name
 
     .EXAMPLE
-        Input: Get-CurrentBranchName
-
-        Output: master
+        Get-CurrentBranchName
+        master
 
     .NOTES
         Author:  Tyler Streu - https://github.com/Streudal/Custom-Powershell-Commands/tree/master/CustomToolkit/Toolkit/Git/Get-CurrentBranchName.psm1

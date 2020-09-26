@@ -6,26 +6,24 @@ function Update-Branch {
         Note: This will fail if branch is not in the remote origin but should display resulting error.
         
     .EXAMPLE
-        Input: Update-Branch
-        
-        Output: Updating branch: master
-                Already up to date.
-                Current branch master is up to date.
+        Update-Branch
+        Updating branch: master
+        Already up to date.
+        Current branch master is up to date.
 
-                OR 
+        OR 
 
-                Whatever was updated...
+        Whatever was updated...
 
     .EXAMPLE
-        Input: Update-Branch
+        Update-Branch
+        Updating branch: new-changes
+        Already up to date.
+        Current branch master is up to date.
 
-        Output: Updating branch: new-changes
-                Already up to date.
-                Current branch master is up to date.
+        OR
 
-                OR
-
-                Whatever was updated...
+        Whatever was updated...
 
     .NOTES
         Author:  Tyler Streu - https://github.com/Streudal/Custom-Powershell-Commands/tree/master/CustomToolkit/Toolkit/Git/Update-Branch.psm1
