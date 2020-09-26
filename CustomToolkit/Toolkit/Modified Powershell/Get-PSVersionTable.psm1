@@ -1,7 +1,7 @@
 function Get-PSVersionTable {
 	<#
     .SYNOPSIS
-        Command module to get PowerShell Version which is similar to $PSVersionTable but more controllable.
+        Command module to get PowerShell Version which is similar to $PSVersionTable but more controllable. Multiple switches are allowed.
 
         Note: Running the default command: Get-PSVersionTable with multiple switches has weirdly formatted output. Also, running multiple commands in the terminal 
               may result in slightly different output than what is expected. For example, Get-PSVersionTable; Get-PSVersionTable -Version -Edition -CompatibleVersions 
