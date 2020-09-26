@@ -83,7 +83,7 @@ function Get-PSVersionTable {
         1      1      0      1
     
     .NOTES
-        Author:  Tyler Streu - https://github.com/Streudal/Custom-Powershell-Commands/Toolkit/
+        Author:  Tyler Streu - https://github.com/Streudal/Custom-Powershell-Commands/blob/master/CustomToolkit/Toolkit/Modified%20Powershell/Get-PSVersionTable.psm1
 	#>
 
     [CmdletBinding()]
